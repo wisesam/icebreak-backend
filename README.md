@@ -1,11 +1,14 @@
 ## Icebreaker Backend
 ### Installation:
-- Create .env and store mongoDB connection info as folows:
-###
+Create .env and store mongoDB connection info as folows:
+
 MONGODB_USER = YOUR_USER_NAME
+
 MONGODB_PWD = YOUR_PASSWORD
+
 MONGODB_CLUSTER = CLUSTER_LINK_OF_ATLAS
-###
+
+---
 
 
 <p align="center">
