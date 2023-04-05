@@ -1,4 +1,12 @@
 ## Icebreaker Backend
+### Installation:
+- Create .env and store mongoDB connection info as folows:
+###
+MONGODB_USER = YOUR_USER_NAME
+MONGODB_PWD = YOUR_PASSWORD
+MONGODB_CLUSTER = CLUSTER_LINK_OF_ATLAS
+###
+
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
