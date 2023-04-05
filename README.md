@@ -10,6 +10,11 @@ MONGODB_CLUSTER = CLUSTER_LINK_OF_ATLAS
 
 ---
 
+Install following packages:
+- npm i dotenv
+- npm i mongodb
+- ( 원래는 mongoose를 이용하는 것이 정식임) npm i @nestjs/mongoose mongoose)
+
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
