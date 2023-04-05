@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-const topics =[
+const staticTopics =[
   {
    "title":"Favorate Movie",
    "category":"fun" 
@@ -23,11 +23,11 @@ export class AppService {
   }
   getAllTopics() {
    
-    return topics;
+    return staticTopics;
   }
 
   getTopic(id: string): {} {
-    return topics[parseInt(id)];
+    return staticTopics[parseInt(id)];
   }
   
 }
