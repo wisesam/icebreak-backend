@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 require("dotenv").config();
 const { MongoClient } = require('mongodb');
+
 const staticTopics = [
   {
    "title":"Favorate Movie",
@@ -53,7 +54,7 @@ export class AppService {
     // return staticTopics;
   }
 
-  getTopic(id: string): {} {
+  getStaticTopic(id: string): {} {
     return staticTopics[parseInt(id)];
   }
 }

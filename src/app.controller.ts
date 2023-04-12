@@ -20,8 +20,8 @@ export class AppController {
     return this.appService.getAllTopics();
   }
 
-  @Get('/topic/:id')
-  getTopic(@Param() params): {} {
-    return this.appService.getTopic(params.id);
+  @Get('/stopic/:id')
+  getTopic(@Param() params:any): {} {
+    return this.appService.getStaticTopic(params.id);
   }
 }
