@@ -15,13 +15,18 @@ export class AppController {
     return this.appService.getAllStaticTopics();
   }
 
+  @Get('/stopic/:id')
+  getStaticTopic(@Param() params:any): {} {
+    return this.appService.getStaticTopic(params.id);
+  }
+
   @Get('/topic')
   getAllTopic(): Promise<any> {
     return this.appService.getAllTopics();
   }
 
-  @Get('/stopic/:id')
+  @Get('/topic/:id')
   getTopic(@Param() params:any): {} {
-    return this.appService.getStaticTopic(params.id);
+    return this.appService.getTopic(params.id);
   }
 }
