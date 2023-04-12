@@ -10,8 +10,13 @@ export class AppController {
     return this.appService.getHello();
   }
 
+  @Get('/stopic')
+  getAllStaticTopics(): any {
+    return this.appService.getAllStaticTopics();
+  }
+
   @Get('/topic')
-  getAllTopic(): any {
+  getAllTopic(): Promise<any> {
     return this.appService.getAllTopics();
   }
 
@@ -19,5 +24,4 @@ export class AppController {
   getTopic(@Param() params): {} {
     return this.appService.getTopic(params.id);
   }
-
 }
