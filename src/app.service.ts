@@ -65,7 +65,7 @@ export class AppService {
       const topics = database.collection("topic");
       // query for movies that have a runtime less than 15 minutes
       const query = { _id: new ObjectId(id) };
-      const options = {
+      const options = { 
         // sort returned documents in ascending order by title (A->Z)
         // sort: { title: 1 },
         // Include only the `title` and `imdb` fields in each returned document
