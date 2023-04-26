@@ -8,12 +8,15 @@ MONGODB_PWD=USER_PASSWORD
 
 MONGODB_CLUSTER=cluster-icebreaking.h4qrrqn.mongodb.net/?retryWrites=true&w=majority
 
+Terminal에서 atlas auth login 하여 현재 컴퓨터의 ip를 등록해줘야함
 ---
+
 
 Install following packages:
 - npm i dotenv
 - npm i mongodb
 - ( 원래는 mongoose를 이용하는 것이 정식임) npm i @nestjs/mongoose mongoose)
+
 
 
 <p align="center">
