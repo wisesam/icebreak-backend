@@ -2,12 +2,6 @@
 ### Installation:
 Create .env and store mongoDB connection info as folows:
 
-MONGODB_USER = YOUR_USER_NAME
-MONGODB_PWD = YOUR_PASSWORD
-MONGODB_CLUSTER = CLUSTER_LINK_OF_ATLAS
-
-Exmaple:
-
 MONGODB_USER=USER_USERNAME
 
 MONGODB_PWD=USER_PASSWORD
